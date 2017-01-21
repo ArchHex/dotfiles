@@ -1,0 +1,43 @@
+! ----------------------------	
+! ------ Color settings ------
+! ----------------------------	
+
+! Transparency
+URxvt*depth: 32
+
+URxvt*background: rgba:0000/0000/0000/c800
+URxvt*foreground: #ffffff
+
+URxvt*color0:	#131313
+URxvt*color8:	#474747
+URxvt*color1: 	#a90014
+URxvt*color9: 	#ff3048
+URxvt*color2: 	#14a900
+URxvt*color10:	#48ff30
+URxvt*color3: 	#a99600
+URxvt*color11:	#ffe730
+URxvt*color4: 	#0014a9
+URxvt*color12:	#3048ff
+URxvt*color5: 	#9600a9
+URxvt*color13:	#e730ff
+URxvt*color6: 	#00a996
+URxvt*color14:	#30ffe7
+URxvt*color7: 	#adadad
+URxvt*color15:	#e7e7e7
+
+! ----------------------------	
+! ------ URxvt settings ------
+! ----------------------------	
+
+! Set font
+URxvt*font: xft:Hack-Regular:size=8,xft:FontAwesome:size=10
+
+! Remove scroll bar
+URxvt*scrollBar: False 
+
+! Cursor blink
+URxvt*cursorBlink: true
+
+! ----------------------------	
+! ------ URxvt plug-ins ------
+! ----------------------------	

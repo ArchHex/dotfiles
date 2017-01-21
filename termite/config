@@ -1,0 +1,6 @@
+[options]
+font = Hack 8
+
+[colors]
+foreground = #ffffff
+background = rgba(00, 00, 00, 0.8)

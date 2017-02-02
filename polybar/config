@@ -1,5 +1,6 @@
 [colours]
-background = #00000000
+;background = #00000000
+background = #1d1f21
 foreground = #ffffff
 underline = #4a94b5
 green = #00ff00
@@ -46,9 +47,7 @@ modules-right = filesystem cpu memory time date battery
 tray-position = right
 tray-detach = false
 tray-maxsize = 14
-;tray-background = ${colours.background}
-tray-background = #00000000
-tray-transparent = true
+tray-background = ${colours.background}
 
 ;====================
 ;    i3 module

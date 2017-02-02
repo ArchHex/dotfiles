@@ -20,7 +20,7 @@ if [ -f "$userresources" ]; then
 fi
 
 if [ -f "$usermodmap" ]; then
-    xmodmap "$usermodmap"
+    /usr/bin/xmodmap "$usermodmap"
 fi
 
 # start some nice programs
@@ -43,5 +43,7 @@ fi
 xsetroot -cursor_name left_ptr &
 xrdb ~/.Xresources
 compton &
+
+setxkbmap -layout ie -option ctrl:nocaps
 
 exec i3
